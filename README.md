@@ -1,3 +1,6 @@
 # konacept.github.io
 
-Esto es una prueba
+Name | Value
+--- | ---
+Item 1 | Blue
+Item 2 | Green
