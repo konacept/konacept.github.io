@@ -9,32 +9,32 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Installation and Dependencies</title>
-    <meta name="title" content="Installation and Dependencies">
-    <meta name="description" content="Having Model Engine 4 on the server.">
+    <title>Permissions</title>
+    <meta name="title" content="Permissions">
+    <meta name="description" content="Permmision">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://konacept.github.io/">
+    <link rel="canonical" href="https://konacept.github.io/permisos/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://konacept.github.io/">
-    <meta property="og:title" content="Installation and Dependencies">
-    <meta property="og:description" content="Having Model Engine 4 on the server.">
+    <meta property="og:url" content="https://konacept.github.io/permisos/">
+    <meta property="og:title" content="Permissions">
+    <meta property="og:description" content="Permmision">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://konacept.github.io/">
-    <meta property="twitter:title" content="Installation and Dependencies">
-    <meta property="twitter:description" content="Having Model Engine 4 on the server.">
+    <meta property="twitter:url" content="https://konacept.github.io/permisos/">
+    <meta property="twitter:title" content="Permissions">
+    <meta property="twitter:description" content="Permmision">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=3.5.0.775009907484" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.775009907484" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -49,7 +49,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-xl">
+                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-xl">
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Logout Avatars</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Wiki</span>
                     </div>
@@ -163,26 +163,72 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="installation-and-dependencies" class="break-words">
+<doc-anchor-target id="permissions" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#installation-and-dependencies">#</doc-anchor-trigger>
-        <span>Installation and Dependencies</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span>Permissions</span>
     </h1>
 </doc-anchor-target>
-<p>Having  <a href="https://mythiccraft.io/index.php?resources/model-engine—ultimate-entity-model-manager-1-19-4-1-20-4.1213/" target="_blank">Model Engine 4</a> on the server.</p>
-<p>Download the plugin .zip
-The zip contains a .jar and a folder with the Necessary Models.
-Place the models in the blueprints folder of ModelEngine.
-Use /meg reload to generate a resource pack.
-<em>Load the texture pack</em></p>
-<doc-anchor-target id="optional">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#optional">#</doc-anchor-trigger>
-        <span>Optional</span>
-    </h2>
-</doc-anchor-target>
-<p>Install <a href="https://dev.bukkit.org/projects/worldguard" target="_blank">WorldGuard</a> to use the avatar spawn denial feature in regions.</p>
-<hr>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Permmision</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.reload</span>
+</span></td>
+<td>Permission for the command <em>/la reload</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.set</span>
+</span></td>
+<td>Permission for the command <em>/la set</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.setcamlocation</span>
+</span></td>
+<td>Permission for the command <em>/la setcam</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.setmodellocation</span>
+</span></td>
+<td>Permission for the command <em>/la setmodel</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.enable</span>
+</span></td>
+<td>Permission for the command <em>/la enable</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.disable</span>
+</span></td>
+<td>Permission for the command <em>/la disable</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.selector</span>
+</span></td>
+<td>Permission for the command <em>/la selector</em></td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
+    <span>logoutavatars.selector.preview</span>
+</span></td>
+<td>Permission to preview avatars in the selector</td>
+</tr>
+</tbody>
+</table>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -192,13 +238,20 @@ Use /meg reload to generate a resource pack.
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../crearavatares/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Avatar Creation</span>
+                                            </span>
+                                        </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="verificarfun/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../free/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">First steps</span>
+                                                <span class="block mt-1">Free resources</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -242,6 +295,6 @@ Use /meg reload to generate a resource pack.
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Installation and Dependencies", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Permissions", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
