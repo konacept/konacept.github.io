@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://konacept.github.io/sitemap.xml.gz
+Sitemap: https://konacept.github.io/LogoutAvatars/sitemap.xml.gz
