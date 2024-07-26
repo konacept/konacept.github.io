@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775009907484">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775274752440">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -21,23 +21,21 @@
     <meta property="og:url" content="https://konacept.github.io/crearavatares/">
     <meta property="og:title" content="Avatar Creation">
     <meta property="og:description" content="You can create your own avatars using Blockbench. Remember that you will then import it into the blueprints folder of Model Engine 4">
-    <meta property="og:image" content="https://i.imgur.com/pvnQwdJ.gif">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://konacept.github.io/crearavatares/">
     <meta property="twitter:title" content="Avatar Creation">
     <meta property="twitter:description" content="You can create your own avatars using Blockbench. Remember that you will then import it into the blueprints folder of Model Engine 4">
-    <meta property="twitter:image" content="https://i.imgur.com/pvnQwdJ.gif">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.775009907484" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.775274752440" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.775274752440" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.775009907484" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.5.0.775009907484" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.775274752440" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.5.0.775274752440" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -53,6 +51,10 @@
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
                         <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/lalogo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../static/lalogo.png">
+                            </span>
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Logout Avatars</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Wiki</span>
                     </div>
@@ -186,11 +188,9 @@
         <span>Spawn Animation</span>
     </h3>
 </doc-anchor-target>
-<p><figure class="content-center">
-    <img src="https://i.imgur.com/pvnQwdJ.gif" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<video width="600" controls>
+  <source src="/static/laspawnanimation.mp4" type="video/mp4">
+</video>
 <p><span class="docs-emoji">&#x1F53C;</span>This animation will be displayed when the Avatar appears.</p>
 <hr>
 <doc-anchor-target id="idle-animation">
@@ -199,11 +199,9 @@
         <span>Idle Animation</span>
     </h3>
 </doc-anchor-target>
-<p><figure class="content-center">
-    <img src="https://i.imgur.com/s8G4fI1.gif" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<video width="600" controls>
+  <source src="/static/lasidleanimation.mp4" type="video/mp4">
+</video>
 <p><span class="docs-emoji">&#x1F53C;</span>This animation will loop after the spawn animation.</p>
 <hr>
 <doc-anchor-target id="despawn-animation">
@@ -212,11 +210,9 @@
         <span>Despawn Animation</span>
     </h3>
 </doc-anchor-target>
-<p><figure class="content-center">
-    <img src="https://i.imgur.com/0wF5enz.gif" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<video width="600" controls>
+  <source src="/static/ladespawnanimation.mp4" type="video/mp4">
+</video>
 <p><span class="docs-emoji">&#x1F53C;</span>This animation will play once the Avatar&#x27;s persistence time has expired.</p>
 <hr>
 <doc-anchor-target id="apply-the-players-skin-to-the-model">
